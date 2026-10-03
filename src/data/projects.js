@@ -7,39 +7,39 @@
 /** @type {Array<{title: string, description: string, technologies: string[], github: string|null, demo: string|null, writeup: string|null}>} */
 export const projects = [
   {
-    title: "Project Alpha",
+    title: "Online-Learning",
     description:
-      "A full-featured web application built for a client in the logistics industry. Includes booking management, real-time tracking, customer dashboards, and an admin panel for operations staff.",
-    technologies: ["Next.js", "Node.js", "PostgreSQL", "Tailwind CSS"],
-    github: null,
-    demo: "https://project-alpha.vercel.app",
+      "A public course-marketplace site in front of three authenticated experiences",
+    technologies: ["React.js", "Tailwind CSS"],
+    github: "https://github.com/JohnMabas/Online-Learning",
+    demo: "https://online-learning-phi.vercel.app/",
     writeup: null,
   },
   {
-    title: "Commerce Platform",
+    title: "Elgee Real Estate",
     description:
-      "An e-commerce platform with product listings, cart management, Paystack payment integration, order tracking, and a full admin dashboard for inventory and order management.",
-    technologies: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/mabas/commerce-platform",
-    demo: "https://commerce-platform.vercel.app",
+      "Real-estate and hotel booking",
+    technologies: ["React", "Tailwind CSS"],
+    github: "https://github.com/JohnMabas/Nestora",
+    demo: "https://nestora-virid.vercel.app/",
     writeup: null,
   },
   {
-    title: "REST API Boilerplate",
+    title: "School Management System API",
     description:
-      "A production-ready Express.js REST API boilerplate with JWT authentication, role-based access control, rate limiting, input validation, and PostgreSQL integration via Prisma.",
+      "A backend-only School Management System API, It uses in-memory arrays instead of a real database, JWT authentication, bcrypt password hashing, strict request validation, role-based authorization, request logging and rate limiting.",
     technologies: ["Node.js", "Express", "PostgreSQL", "Prisma"],
-    github: "https://github.com/mabas/rest-api-boilerplate",
+    github: "https://github.com/JohnMabas/School-Management-System-REST-API",
     demo: null,
-    writeup: "https://dev.to/mabas/rest-api-boilerplate",
+    writeup: null,
   },
   {
-    title: "Personal Portfolio",
+    title: "Banking System",
     description:
-      "This portfolio website. Built with Next.js App Router, Tailwind CSS v4, and deployed to Vercel. Designed to be fast, accessible, and easy to maintain.",
-    technologies: ["Next.js", "Tailwind CSS", "JavaScript"],
-    github: "https://github.com/mabas/portfolio",
-    demo: "https://mabas.vercel.app",
+      "Banking System REST API  .",
+    technologies: ["Node.js", "Express.js"],
+    github: "https://github.com/JohnMabas/Banking-System",
+    demo: null,
     writeup: null,
   },
 ];
