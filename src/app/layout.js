@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} antialiased`}
     >
-      <body className="min-h-screen flex flex-col bg-white text-zinc-900">
+      <body className="min-h-screen flex flex-col bg-white text-zinc-900" suppressHydrationWarning>
         <Navbar />
         <div className="flex-1">{children}</div>
         <Footer />
