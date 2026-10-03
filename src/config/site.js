@@ -7,18 +7,18 @@ export const siteConfig = {
   // Identity
   name: "Mabas John",
   handle: "mabas",
-  title: "Full Stack Developer",
+  title: "Software Engineer",
   titleShort: "Full Stack Dev",
-  subtitle: "Full Stack Developer · Freelance Web Developer",
+  subtitle: "Software Engineer",
   description:
-    "I am a full stack developer. I build web applications from the ground up — beautiful frontends and the solid backends that power them.",
+    "I am a Software Engineer. I build web applications from the ground up — beautiful frontends and the solid backends that power them.",
 
   // Location & availability
   location: "Nigeria",
   available: true,
 
   // Bio (used on freelance page)
-  bio: "I'm a full stack developer with experience building complete web products — from pixel-perfect interfaces to the APIs and databases that run behind them. I've worked on real client projects and I understand what it takes to take an idea from conversation to deployed product. I write clean, maintainable code and communicate clearly throughout every project.",
+  bio: "I'm a Software Engineer with experience building complete web products — from pixel-perfect interfaces to the APIs and databases that run behind them. I've worked on real client projects and I understand what it takes to take an idea from conversation to deployed product. I write clean, maintainable code and communicate clearly throughout every project.",
 
   // Contact
   email: "johnmabas1@gmail.com",
@@ -40,5 +40,5 @@ export const siteConfig = {
   url: "https://mabas-one.vercel.app",
 
   // Open Graph image — place at /public/images/og.png (1200×630)
-  ogImage: "/images/og.png",
+  ogImage: "/images/profile.jpg",
 };
