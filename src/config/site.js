@@ -22,7 +22,7 @@ export const siteConfig = {
 
   // Contact
   email: "johnmabas1@gmail.com",
-  whatsapp: "https://wa.me/09060096590", 
+  whatsapp: "https://wa.me/message/A66EHMMFZDBIA1", 
   whatsappNumber: "09060096590",
 
   // Social profiles — set to null to hide the icon
