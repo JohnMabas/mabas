@@ -56,14 +56,7 @@ export default function HomePage() {
             and open to full-time opportunities.
           </p>
           <p className="animate-fade-in-up delay-400">
-            I write about software engineering on{" "}
-            <Link
-              href="/blog"
-              className="text-zinc-900 font-medium underline underline-offset-2 hover:text-zinc-600 transition-colors"
-            >
-              the blog
-            </Link>{" "}
-            and share selected work on{" "}
+            You can view selected work on{" "}
             <Link
               href="/projects"
               className="text-zinc-900 font-medium underline underline-offset-2 hover:text-zinc-600 transition-colors"
